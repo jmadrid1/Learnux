@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Learnux</string>
+    <string name="title_activity_main">Learnux</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    //Drawer Strings
+    <string name="drawer_header_title">Learnux</string>
+    <string name="drawer_subtitle">Filter Video Content:</string>
+
+    <string name="drawer_switch_basics">Basics</string>
+    <string name="drawer_switch_networking">Networking</string>
+    <string name="drawer_switch_security">Security</string>
+    <string name="drawer_switch_storage">Storage</string>
+    <string name="drawer_switch_system">System</string>
+
+    //Empty List TextView
+    <string name="text_empty_list_message">Check network connection and try again.</string>
+
+    //Dialogs
+    <string name="dialog_title_no_connection">Check Network Connectivity</string>
+    <string name="dialog_message_no_connection">"Please check network connection to load videos and try again.</string>
+    <string name="dialog_button_ok">OK</string>
+
+</resources>

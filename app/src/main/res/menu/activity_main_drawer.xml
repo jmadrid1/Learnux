@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_basics"
+        android:title="@string/drawer_switch_basics"
+        app:actionLayout="@layout/main_drawer_switch"/>
+
+    <item
+        android:id="@+id/nav_networking"
+        android:title="@string/drawer_switch_networking"
+        app:actionLayout="@layout/main_drawer_switch"/>
+
+    <item
+        android:id="@+id/nav_security"
+        android:title="@string/drawer_switch_security"
+        app:actionLayout="@layout/main_drawer_switch"/>
+
+    <item
+        android:id="@+id/nav_storage"
+        android:title="@string/drawer_switch_storage"
+        app:actionLayout="@layout/main_drawer_switch"/>
+
+    <item
+        android:id="@+id/nav_system"
+        android:title="@string/drawer_switch_system"
+        app:actionLayout="@layout/main_drawer_switch"/>
+
+</menu>

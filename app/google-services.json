@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "502263493181",
+    "firebase_url": "https://linuxadmin-22cb4.firebaseio.com",
+    "project_id": "linuxadmin-22cb4",
+    "storage_bucket": "linuxadmin-22cb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502263493181:android:735b89cec8ab70e9",
+        "android_client_info": {
+          "package_name": "com.example.jovel.learnux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502263493181-ku7lhv754up0r9v6pnnotq0be40g090v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKbyxJZ_TYpR4P9YSp14C8bTCLOTOEwWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
