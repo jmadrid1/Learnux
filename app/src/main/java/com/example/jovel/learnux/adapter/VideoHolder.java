@@ -20,19 +20,16 @@ public class VideoHolder extends RecyclerView.ViewHolder {
     private TextView mTitle;
     private TextView mDescription;
     private TextView mDuration;
-
-    private RelativeLayout mFrame;
     private ImageView mThumbnail;
 
     public VideoHolder(View view) {
         super(view);
 
-        mTitle = (TextView)view.findViewById(R.id.row_title);
-        mDescription = (TextView)view.findViewById(R.id.row_description);
-        mDuration = (TextView)view.findViewById(R.id.row_duration);
+        mTitle = view.findViewById(R.id.row_title);
+        mDescription = view.findViewById(R.id.row_description);
+        mDuration = view.findViewById(R.id.row_duration);
 
-        mThumbnail = (ImageView)view.findViewById(R.id.row_thumbnail);
-        mFrame = (RelativeLayout) view.findViewById(R.id.row_frame);
+        mThumbnail = view.findViewById(R.id.row_thumbnail);
     }
 
     public void bindVideo(final Video video, final OnVideoClickListener onVideoClickListener){
@@ -45,7 +42,7 @@ public class VideoHolder extends RecyclerView.ViewHolder {
                 .load(video.getThumbnail())
                 .into(mThumbnail);
 
-        mFrame.setOnClickListener(new View.OnClickListener() {
+        itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onVideoClickListener.onVideoClicked(video);
